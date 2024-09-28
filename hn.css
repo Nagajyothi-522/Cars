@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.navbar{
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px 40px 20px 40px;
+    display: block;
+    text-align: center;
+    float: left;
+    text-decoration-color: beige;
+}
+.navbar a:hover{
+    background-color: green;
+    color: black;
+}
+.icon{
+    width:50px;
+    height:50px;
+}
+.icon::before{
+    content:"";
+    display:inline-block;
+    width:50px;
+    height:50px;
+    background-image:url("");
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+}
